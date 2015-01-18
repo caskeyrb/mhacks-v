@@ -9,6 +9,10 @@ hr {
 	background: yellow;
 }
 
+.cursor {
+    cursor: url("http://downloads.totallyfreecursors.com/thumbnails/light-saber-blue.gif"), auto;
+}
+
 #containter { 
 	width: 60em;
 	background-size: cover;
@@ -51,12 +55,20 @@ hr {
 	margin-top: -0.5em;
 }
 
-<<<<<<< Updated upstream
 .quotation {
 	color: yellow;
 	text-align: center;
 	font-size: 36px;
 	margin-top: -0.5em;
+}
+
+.footer a {
+	color: yellow;
+	font-size: 20px;
+	margin-top: -0.5em;
+	text-decoration: none;
+	margin-left: 33%;
+	margin-right: 33%;
 }
 
 #quote {
@@ -65,11 +77,9 @@ hr {
 	font-size: 24px;
 	margin-top: -1em;
 	margin-bottom: 1em;
-=======
-.cursor {
-    cursor:url("http://downloads.totallyfreecursors.com/thumbnails/light-saber-blue.gif"), auto;
->>>>>>> Stashed changes
-}
+
+
+
 
 
 
