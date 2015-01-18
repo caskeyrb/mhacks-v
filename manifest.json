@@ -1,13 +1,14 @@
 {
 	"manifest_version": 2,
 
-	"name": "Star Wars VII Countdown Timer",
+	"name": "Star Wars VII Countdown!",
 	"description": "Counts down to the seventh movie of Star Wars, the greatest series of all time.",
 	"version": "1.0",
 
 	"browser_action" : {
 		"default_icon": "icon.png",
-		"default_popup": "popup.html"
+		"default_popup": "popup.html",
+		"default_title": "Star Wars VII Countdown!"
 		},
 
 	"permissions": [

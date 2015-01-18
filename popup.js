@@ -35,3 +35,21 @@ function CountDownTimer(dt, id)
 
     timer = setInterval(showRemaining, 1000);
 }
+
+var quotation=new Array()
+
+quotation[0] = "hi";
+/*quotation[1] = "";
+quotation[2] = "";
+quotation[3] = "";
+quotation[4] = "";
+quotation[5] = "";
+quotation[6] = "";
+quotation[7] = "";
+quotation[8] = "";
+quotation[9] = "";*/
+
+var q = quotation.length;
+var whichquotation=Math.round(Math.random()*(Q-1));
+function showquotation(){document.write(quotation[whichquotation]);}
+showquotation();
