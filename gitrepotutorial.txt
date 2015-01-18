@@ -1,0 +1,21 @@
+ls > cd [repository folder] > git clone [github URL] > git status >git add [file.type] > git status > git commit -m "[update message]" > git remote -v > git push origin master
+
+
+'ls' shows a list of files in the current directory
+'cd [directory]' enters the specified directory
+'mkdir [new directory]' makes a new directory
+'git clone [github URL]' clones the github repo into the current directory
+'mv [file.type] [directory]' moves a file into the specified directory
+'git status' checks what has/hasn't been committed to the github repo
+'git add [file.type]' gets the file ready for committing
+'git commit -m "[update message]"' commits the local repo to the github repo
+'git remote -v' shows what the local repo is linked to
+'git push origin master' pushes the files from the master to the origin
+'echo "[string]" > [file.type]' prints the string
+'.' current directory
+'open .' opens current directory
+
+If 2+ people are working on the same branch, they must pull the repository before pushing
+
+
+example directory '~/Documents/Programming/test-repository'
