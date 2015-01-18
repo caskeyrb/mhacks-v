@@ -50,6 +50,6 @@ quotation[8] = "";
 quotation[9] = "";*/
 
 var q = quotation.length;
-var whichquotation=Math.round(Math.random()*(Q-1));
+var whichquotation=Math.round(Math.random()*(q-1));
 function showquotation(){document.write(quotation[whichquotation]);}
 showquotation();
